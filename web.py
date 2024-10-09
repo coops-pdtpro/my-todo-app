@@ -1,9 +1,9 @@
-import os
+# import os
 import streamlit as st
 import functions
 
 # Set the desired working directory
-os.chdir("C:/Users/coope/PycharmProjects/todo-app/app1/venv")
+# os.chdir("C:/Users/coope/PycharmProjects/todo-app/app1/venv")
 
 # Retrieve todos from file
 todos = functions.get_todos()
